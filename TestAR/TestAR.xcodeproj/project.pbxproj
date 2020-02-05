@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02066E0023EB23FB0020EDF5 /* fishModel.dae in Resources */ = {isa = PBXBuildFile; fileRef = 02066DFF23EB23FB0020EDF5 /* fishModel.dae */; };
 		025A686823E5E38600501AC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025A686723E5E38600501AC8 /* AppDelegate.swift */; };
 		025A686A23E5E38600501AC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025A686923E5E38600501AC8 /* SceneDelegate.swift */; };
 		025A686E23E5E38800501AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 025A686D23E5E38800501AC8 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02066DFF23EB23FB0020EDF5 /* fishModel.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = fishModel.dae; path = ../../../../Desktop/fishModel.dae; sourceTree = "<group>"; };
 		025A686423E5E38600501AC8 /* TestAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		025A686723E5E38600501AC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		025A686923E5E38600501AC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				025A686923E5E38600501AC8 /* SceneDelegate.swift */,
 				025A689723E5E49A00501AC8 /* ViewController.swift */,
 				025A689823E5E49A00501AC8 /* ViewController.xib */,
+				02066DFF23EB23FB0020EDF5 /* fishModel.dae */,
 				025A686D23E5E38800501AC8 /* Assets.xcassets */,
 				025A687523E5E38800501AC8 /* Info.plist */,
 				025A686F23E5E38800501AC8 /* Preview Content */,
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02066E0023EB23FB0020EDF5 /* fishModel.dae in Resources */,
 				025A687123E5E38800501AC8 /* Preview Assets.xcassets in Resources */,
 				025A689A23E5E49A00501AC8 /* ViewController.xib in Resources */,
 				025A686E23E5E38800501AC8 /* Assets.xcassets in Resources */,
@@ -425,13 +429,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TestAR/Preview Content\"";
+				DEVELOPMENT_TEAM = TM5VUFHMW4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TestAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = TestAR.TestAR;
+				PRODUCT_BUNDLE_IDENTIFIER = TestAR.TestARsn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -444,13 +449,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TestAR/Preview Content\"";
+				DEVELOPMENT_TEAM = TM5VUFHMW4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TestAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = TestAR.TestAR;
+				PRODUCT_BUNDLE_IDENTIFIER = TestAR.TestARsn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
