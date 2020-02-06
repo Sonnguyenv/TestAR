@@ -16,6 +16,7 @@
 		025A688A23E5E38800501AC8 /* TestARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025A688923E5E38800501AC8 /* TestARUITests.swift */; };
 		025A689923E5E49A00501AC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025A689723E5E49A00501AC8 /* ViewController.swift */; };
 		025A689A23E5E49A00501AC8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025A689823E5E49A00501AC8 /* ViewController.xib */; };
+		02BA4C3C23EBCBC800D665EF /* carModel.dae in Resources */ = {isa = PBXBuildFile; fileRef = 02BA4C3B23EBCBC800D665EF /* carModel.dae */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		025A688B23E5E38800501AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		025A689723E5E49A00501AC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		025A689823E5E49A00501AC8 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		02BA4C3B23EBCBC800D665EF /* carModel.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = carModel.dae; path = ../../../../Desktop/carModel.dae; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				025A689723E5E49A00501AC8 /* ViewController.swift */,
 				025A689823E5E49A00501AC8 /* ViewController.xib */,
 				02066DFF23EB23FB0020EDF5 /* fishModel.dae */,
+				02BA4C3B23EBCBC800D665EF /* carModel.dae */,
 				025A686D23E5E38800501AC8 /* Assets.xcassets */,
 				025A687523E5E38800501AC8 /* Info.plist */,
 				025A686F23E5E38800501AC8 /* Preview Content */,
@@ -246,6 +249,7 @@
 				02066E0023EB23FB0020EDF5 /* fishModel.dae in Resources */,
 				025A687123E5E38800501AC8 /* Preview Assets.xcassets in Resources */,
 				025A689A23E5E49A00501AC8 /* ViewController.xib in Resources */,
+				02BA4C3C23EBCBC800D665EF /* carModel.dae in Resources */,
 				025A686E23E5E38800501AC8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         addBox()
-        addTapGestureToSceneView()
+//        addTapGestureToSceneView()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -32,11 +32,12 @@ class ViewController: UIViewController {
     
     func addBox() {
         let scene = SCNScene()
-        let fishScene = SCNScene(named: "fishModel.dae")
-        guard let fishNode = fishScene?.rootNode.childNode(withName: "fishModel", recursively: true) else {
+        let fishScene = SCNScene(named: "carModel.dae")
+        guard let fishNode = fishScene?.rootNode.childNode(withName: "carModel", recursively: true) else {
             fatalError("fishModel is not found")
         }
         fishNode.position = SCNVector3(0, 0, -1.0)
+        
         scene.rootNode.addChildNode(fishNode)
         sceneView.scene = scene
     }
